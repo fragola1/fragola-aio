@@ -22,7 +22,7 @@ spell.pred = {
 }
 spell.pred2 = {
     radius = 45, -- 45, idem 
-    delay = 0.5, --un po Q1+Q2? utilizzato per il controllo delle collisioni deve essere regolato ogni volta
+    delay = 0.5, --un po Q1 + Q2? utilizzato per il controllo delle collisioni deve essere regolato ogni volta
     speed = 2100,
     range = 1100,
     collision = {
