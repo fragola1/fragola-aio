@@ -2,7 +2,7 @@ local orb = module.internal("orb")
 local pred = module.internal("pred")
 
 local kalman = module.load("fragola-aio", "kalman")()
-local common = module.load("GG-AIO", "common")()
+local common = module.load("fragola-aio", "common")()
 
 local menu = menu("fragola-aio", "Simple Velkoz Logic")
 local Q = module.load("fragola-aio", "Velkoz/Q")(menu)
